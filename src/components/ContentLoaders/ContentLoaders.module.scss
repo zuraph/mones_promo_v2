@@ -1,0 +1,17 @@
+.authContentLoader {
+	width: 100%;
+	
+	@media (max-width: 900px) {
+		height: 36px;
+	}
+}
+
+.boardContentLoader {
+	width: 100%;
+	margin-top: 30px;
+	
+	@media (max-width: 900px) {
+		height: 70vw;
+		margin-top: 20px;
+	}
+}

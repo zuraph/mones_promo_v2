@@ -1,0 +1,70 @@
+$border: #677791;
+$background: #465265;
+$titleColor: #A7C2EF;
+
+.ruleItem {
+	border: 1px solid #677791;
+	border-radius: 5px;
+	padding: 27px 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	
+	&:hover {
+		background: rgba($background, .1);
+	}
+	
+	.ruleTitle {
+		color: $titleColor;
+		font-size: 18px;
+		display: flex;
+		
+		.text {
+			flex-grow: 1;
+		}
+		
+		.icon {
+			flex-shrink: 0;
+			flex-grow: 0;
+			width: 24px;
+			height: 24px;
+			background: url("/img/rule-icon-closed.svg") no-repeat center;
+		}
+	}
+	.ruleContent {
+		color: #fff;
+		max-height: 0;
+		overflow: hidden;
+		font-weight: 500;
+		transition: max-height .1s ease;
+	}
+	
+	&.open {
+		background: $background;
+		border-color: $background;
+		
+		.ruleTitle {
+			.icon {
+				background: url("/img/rule-icon-opened.svg") no-repeat center;
+			}
+		}
+		
+		.ruleContent {
+			max-height: 600px;
+			transition: max-height .5s ease;
+			box-sizing: border-box;
+			padding-top: 15px;
+			
+			strong {
+				color: #FFCA2C;
+			}
+			
+			li {
+				line-height: 24px;
+				margin-bottom: 10px;
+				span {
+					color: #FFCA2C;
+				}
+			}
+		}
+	}
+}

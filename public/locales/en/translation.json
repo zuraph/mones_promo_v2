@@ -1,0 +1,41 @@
+{
+	"auth_prompt": "For more information, please, Sign In",
+	"banner_subtitle": "Play the updated Volt with increased opportunities. Per one draw:",
+	"banner_title": "Improvements in Volt!",
+	"current_pos": "My position in leaderboard",
+	"data_not_found": "No records found",
+	"dates": {
+		"end": "7 Apr 23:59",
+		"end_name": "End",
+		"start": "1 Apr 00:00",
+		"start_name": "Start"
+	},
+	"faq": {
+		"f1-content": "<ul><li>All Leaderbet users will have an opportunity to get 20% cashback in the form of free volts during the entire promotion period.</li><li>Minimum daily amount – 5 GEL</li><li>Maximum daily amount – 1000 GEL</li><li>Cashback is calculated according to the following formula: cashback = (total bet -total winning) *20%.</li><li>One can get cashback on a daily basis.</li><li>Only verified users can participate in the promotion.</li><li>Cashback will be accrued the next day at 15:00.</li></ul>",
+		"f1-title": "How can I get 20% CASHBACK?",
+		"f2-content": "<ul><li>All verified “Leaderbet” players can participate in the promotion.</li><li>The company “Leaderbet” reserves the right to make any amendments to promotion rules or cancel the promotion any time and not give prior notice to its users regarding it.</li><li>“Leaderbet” reserves the right, in the event of technical bugs or on the grounds of other circumstances, at its discretion, to restrict its users from participating in the promotion, do not accrue any winnings, cancel accrued winnings without any explanation.</li><li>In case of any unfair act from the user or users’ team side, which is intended for getting gifts or other benefit, “Leaderbet” is entitled, at its sole discretion, to restrict its users from participating in the promotion, do not accrue any winnings, to cancel the accrued winnings without any explanations.</li><li>In case of any dispute, final decision taken by “Leaderbet” shall prevail.</li></ul>",
+		"f2-title": "Additional Terms and Conditions:",
+		"f3-content": "<ul><li>The maximum bet - up to - <span>1000 GEL.</span> in total.</li><li>User can place<span>10 bet slips</span> per one draw.</li><li>The winning - up to - <span>100 000 GEL.</span></li><li><span>FreeVolt</span> can be used for placing free bets.</li><li>The amount won via FreeVolt in a draw, will be transferred to the account, exclusive of the bet. E.g., if the user wagered 5 GEL-bet slip by means of free bet and then he won 50 GEL, 50-5 =45 GEL will be transferred to his balance.</li></ul>",
+		"f3-title": "How can I play Volt?",
+		"f4-content": "<ul><li>All verified “Leaderbet” players can participate in the promotion.</li><li>The company “Leaderbet” reserves the right to make any amendments to promotion rules or cancel the promotion any time and not give prior notice to its users regarding it.</li><li>“Leaderbet” reserves the right, in the event of technical bugs or on the grounds of other circumstances, at its discretion, to restrict its users from participating in the promotion, do not accrue any winnings, cancel accrued winnings without any explanation.</li><li>In case of any unfair act from the user or users’ team side, which is intended for getting gifts or other benefit, “Leaderbet” is entitled, at its sole discretion, to restrict its users from participating in the promotion, do not accrue any winnings, to cancel the accrued winnings without any explanations.</li><li>In case of any dispute, final decision taken by “Leaderbet” shall prevail.</li></ul>",
+		"f4-title": "Additional Terms and Conditions"
+	},
+	"header": "Play Volt and get",
+	"lb_title": "Leaderboard",
+	"login": "Login",
+	"max_bet": "Max Bet",
+	"max_win": "Max Winning",
+	"play_game": "Start Game",
+	"prize": "Freevolt",
+	"sub_title": "Everyday",
+	"sup_title": "High Voltage",
+	"tabs": {
+		"odd": "Odd",
+		"tickets": "Tickets ",
+		"win": "Win"
+	},
+	"tickets": "Tickets",
+	"tkt_count": "The number of Bet Slips",
+	"cashback_min": "Minimum daily cashback amount:",
+	"cashback_max": "Maximum daily cashback amount:"
+}

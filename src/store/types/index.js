@@ -1,0 +1,25 @@
+const types = {
+	TICKETS: 'TICKETS',
+	ODDS: 'ODDS',
+	WINS: 'WINS',
+	
+	// actions
+	SET_MOB_MODE: 'SET_MOB_MODE',
+	SET_DATE: 'SET_DATE',
+	SET_LOADING: 'SET_LOADING',
+	SET_AUTH: 'SET_AUTH',
+	SET_DATA: 'SET_DATA',
+	
+	// boards
+	BET_COUNT: 'BET_COUNT',
+	TOTAL_WIN: 'TOTAL_WIN',
+	MAX_COEF: 'MAX_COEF',
+	SET_ACTIVE_BOARD: 'SET_ACTIVE_BOARD',
+	SET_FIRST_LOAD: 'SET_FIRST_LOAD',
+	
+	// misc
+	DATE_FORMAT: 'YYYY-MM-DD',
+	DATE_FORMAT_DM: 'DD MMMM'
+}
+
+export default types

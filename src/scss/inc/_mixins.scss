@@ -1,0 +1,30 @@
+@mixin blurBg {
+	background-color: rgba(20, 80, 27, 0);
+	border-radius: 20px;
+	backdrop-filter: blur(16px) brightness(150%);
+}
+
+@mixin scrollbar($bgColor: #191A1D, $thumbColor: #484A57) {
+	overflow: auto;
+	scrollbar-width: thin;
+	scrollbar-color: $thumbColor $bgColor;
+	
+	&::-webkit-scrollbar {
+		width: 5px;
+	}
+	
+	&::-webkit-scrollbar-track {
+		background: $bgColor;
+	}
+	
+	&::-webkit-scrollbar-thumb {
+		background-color: $thumbColor ;
+		//border: 1px solid $scrollbarBG;
+	}
+}
+
+@mixin caps {
+	text-transform: uppercase;
+	font-feature-settings: 'case' on;
+
+}
