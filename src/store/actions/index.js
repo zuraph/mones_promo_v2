@@ -28,41 +28,26 @@ export const getBoards = () => (dispatch, getState, api) => {
 	
 	
 	const date = state.date ?? dt.format(types.DATE_FORMAT)
-	
-	
-	api.get('https://volt3.lider-bet.com/promo/api/board', {
-			params: {
-				board: state.activeBoard,
-				day: date
-			},
-			withCredentials: true,
-		})
+
+
+	api.get('https://www.lider-bet.com/api/?app=keepAlive&mobile=new&lang=ka', {
+		//params: {
+		//	board: state.activeBoard,
+		//	day: date
+		//},
+		withCredentials: true,
+	})
 		.then(({ data }) => {
 			// hide loader
 			dispatch(setLoading(false))
-			
+
 			// disable first load
 			dispatch(setFisrtLoad(false))
-			
+
 			// check auth
-			dispatch(setAuth(!!data?.isAuth))
-			
-			// set data
-			if ([types.BET_COUNT, types.MAX_COEF, types.TOTAL_WIN].includes(data.name)) {
-				dispatch(setData({
-					name: data.name,
-					myPos: data?.me?.place ?? null,
-					data: data?.all ?? []
-					// data: testData
-				}))
-			}
-			
-			// set new interval
-			refs.intervalId = setInterval(() => {
-				dispatch(getBoards())
-			}, refs.intervalTime)
+			//dispatch(setAuth(!!data?.isAuth))
+			dispatch(setAuth(data?.status))
 		})
-	
 }
 export const setDate = createAction(types.SET_DATE)
 export const setActiveBoard = createAction(types.SET_ACTIVE_BOARD)
