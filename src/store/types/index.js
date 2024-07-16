@@ -19,7 +19,8 @@ const types = {
 	
 	// misc
 	DATE_FORMAT: 'YYYY-MM-DD',
-	DATE_FORMAT_DM: 'DD MMMM'
+	DATE_FORMAT_DM: 'DD MMMM',
+	DATE_FORMAT_DMY: 'DD MMMM YYYY'
 }
 
 export default types

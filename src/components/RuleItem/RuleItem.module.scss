@@ -1,9 +1,9 @@
-$border: #677791;
-$background: #465265;
+$border: #373081;
+$background: #373081;
 $titleColor: #A7C2EF;
 
 .ruleItem {
-	border: 1px solid #677791;
+	border: 1px solid #373081;
 	border-radius: 5px;
 	padding: 27px 20px;
 	cursor: pointer;
@@ -40,7 +40,7 @@ $titleColor: #A7C2EF;
 	
 	&.open {
 		background: $background;
-		border-color: $background;
+		border-color: $border;
 		
 		.ruleTitle {
 			.icon {
