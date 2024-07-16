@@ -116,10 +116,10 @@ const App = () => {
                             <img src={prize} alt="img"/>
                             <div className="details-container">
                                 <div className="days-count">
-                                    <span> 364 დღე </span>
+                                    <span> {t('translation:days364')}</span>
                                 </div>
                                 <div className="prizes-info">
-                                    <span>10 000 პრიზი ყოველდღე </span>
+                                    <span>{t('translation:pr10000')}</span>
                                 </div>
                             </div>
                         </div>
@@ -151,7 +151,7 @@ const App = () => {
                     {/*</div>*/}
 
 
-                    {auth === 2 && <div className="auth-panel">
+                    {/*{auth === 2 && <div className="auth-panel">
                         <div className="avatar"/>
                         <div className="auth-text">{t('translation:auth_prompt')}</div>
 
@@ -165,7 +165,7 @@ const App = () => {
                             }
                         }}>{t('translation:login')}</div>
                     </div>
-                    }
+                    }*/}
                 </div>
 
             </header>
@@ -217,7 +217,7 @@ const App = () => {
             {/*</section>*/}
             <section className="games-section">
                 <div className="promotion-games-button">
-                    <p> აქციაში მონაწილეობენ შემდეგი თამაშები</p>
+                    <p>{t('translation:promo_text')}</p>
                 </div>
                 {/*<div className="cards-container">*/}
                 {/*    {games?.map((game, index) => (*/}
