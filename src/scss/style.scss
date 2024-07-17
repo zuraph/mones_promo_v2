@@ -509,7 +509,7 @@ header {
       position: absolute;
       right: 0;
       top: 50%;
-      transform: translateY(-50%);
+      transform: translateY(-50%) rotate(180deg);
     }
 
 
@@ -527,6 +527,10 @@ header {
       height: 32px;
       color: black;
       cursor: pointer;
+      &:hover {
+        cursor: pointer;
+        background-color: #4c458d;
+      }
 
     }
 

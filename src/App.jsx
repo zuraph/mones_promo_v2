@@ -239,7 +239,7 @@ const App = () => {
 
                             slidesPerView={4}
                             spaceBetween={24}
-                            navigation={{nextEl: ".arrow-left", prevEl: ".arrow-right"}}
+                            navigation={{nextEl: ".arrow-right", prevEl: ".arrow-left"}}
                             modules={[Pagination, Navigation]}
                             breakpoints={{
                                 0: {
@@ -269,7 +269,7 @@ const App = () => {
                         </Swiper>
                     </div>
                     <button className="arrow-right arrow">
-                        <img src={right} alt="right "/>
+                        <img src={left} alt="right "/>
                     </button>
                 </div>
             </section>
